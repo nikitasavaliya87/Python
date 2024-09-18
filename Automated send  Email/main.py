@@ -51,6 +51,9 @@
 #         msg=f"Subject:Tueday Motivation\n\n {quotes} ")
 #     #connection.close()
 
+
+
+#birtday message sending to email
 from datetime import datetime
 import pandas
 import random
@@ -59,8 +62,7 @@ import smtplib
 today=datetime.now()
 today_tuple=(today.month, today.day)
 my_email="n270920161987@gmail.com"
-
-password="daop zima aeoc xfb" #q
+password="daop zima aeoc xfbq"
 
 data=pandas.read_csv("Automated send  Email/data/birthdays.csv")
 birthday_dict={(data_row["month"],data_row["day"]):data_row for(index, data_row) in data.iterrows()}
