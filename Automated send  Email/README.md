@@ -12,7 +12,7 @@ This project is a Python script that automates the process of sending personaliz
 
 Before running the script, ensure you have the following installed:
 
-- Python 3.x
+- Python
 - Required Python libraries:
   - `pandas`
   - `smtplib`
