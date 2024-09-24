@@ -18,6 +18,6 @@ This Python application checks if the International Space Station (ISS) is curre
 
 This application is useful for anyone interested in observing the ISS, including:
 
--Astronomy enthusiasts
--Educators and students studying space
--Anyone who wants a fun way to keep track of the ISS
+- Astronomy enthusiasts
+- Educators and students studying space
+- Anyone who wants a fun way to keep track of the ISS
