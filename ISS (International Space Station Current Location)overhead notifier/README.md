@@ -15,6 +15,7 @@ This Python application checks if the International Space Station (ISS) is curre
 - SMTP access (e.g., Gmail)
 
 ## Usage
+
 This application is useful for anyone interested in observing the ISS, including:
 
 -Astronomy enthusiasts
