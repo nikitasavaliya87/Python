@@ -40,6 +40,8 @@ class QuizInterface:
             self.canvas.itemconfig(self.question_text,text=q_text)
         else:
             self.canvas.itemconfig(self.question_text,text="Question reached end of the quiz")
+            self.true_button.config(state="disabled")
+            self.false_button.config(state="disabled")
 
 
 
