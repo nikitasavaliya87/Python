@@ -32,4 +32,11 @@ This repo contains a simple Python-based quiz application that presents multiple
 - **Dynamic Question Loading**: The application pulls questions dynamically from a pre-defined data source.
 
 
+## Demo
+
+
+https://github.com/user-attachments/assets/cb742ee8-ae6b-46ce-8b22-480ec6394914
+
+
+
 
