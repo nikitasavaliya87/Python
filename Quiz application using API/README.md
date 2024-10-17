@@ -31,5 +31,5 @@ This repo contains a simple Python-based quiz application that presents multiple
 - **Completion Summary**: After the user completes the quiz, a final score summary is displayed.
 - **Dynamic Question Loading**: The application pulls questions dynamically from a pre-defined data source.
 
-
-
+## Demo
+<video controls src="20241016-0126-51.7826179.mp4" title="Title"></video>
