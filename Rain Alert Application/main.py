@@ -16,4 +16,16 @@ response=requests.get(end,params=weather_param)
 #print(response.status_code)
 response.raise_for_status()
 weather_data=response.json()
-print(weather_data)
+
+#print(weather_data["list"][0]["weather"][0]['id'])
+for data in weather_data["list"]:
+    condition_code=data["weather"][0]["id"]
+    #print(condition_code)
+    if int(condition_code)<700:
+        
+        will_rain=True
+    else:
+        #print("Sunny")
+        will_rain=False
+    if will_rain:
+        print("Bring Umbrella")
