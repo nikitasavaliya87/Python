@@ -1,7 +1,7 @@
 
 # Python Intermediate Level Projects
 
-1. **Flash Card Project**
+1. [**Flash Card Project**](https://github.com/nikitasavaliya87/Python/tree/1f865a1b0c13b806666de99f7038b7810eeb9e63/Flash%20Card)
    - Create a flash card app to help users memorize information. The app displays questions (or terms) on a flashcard, and the user needs to answer or recall the information. You can implement this using a graphical interface like Tkinter, or as a command-line project.
    
 2. **Automated Email Project**
@@ -14,5 +14,5 @@
    - Build a quiz application that fetches random questions from an API (like Open Trivia Database). Users can answer questions, and the application tracks the correct answers. You can create a command-line version or an app with a GUI.
 
 5. **Rain Alert Application**
-   - This project notifies users if it's going to rain in their location. It uses the OpenWeatherMap API to check the weather forecast and Twilio's API to send an SMS or WhatsApp message. [Link to Project](#weather-alert-application).
+   - This project notifies users if it's going to rain in their location. It uses the OpenWeatherMap API to check the weather forecast and Twilio's API to send an SMS or WhatsApp message.
 
