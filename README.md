@@ -1,7 +1,7 @@
 
 # Python Intermediate Level Projects
 
-1. **Flash Card Project**
+1. [**Flash Card Project**]()
    - Create a flash card app to help users memorize information. The app displays questions (or terms) on a flashcard, and the user needs to answer or recall the information. You can implement this using a graphical interface like Tkinter, or as a command-line project.
    
 2. **Automated Email Project**
