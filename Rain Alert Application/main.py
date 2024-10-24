@@ -2,16 +2,26 @@
 #
 # print("ApI Application")
 import requests
+import os
+from twilio.rest import Client
+
+
 
 end="https://api.openweathermap.org/data/2.5/forecast"
 api_key="083334a04b5674ede874e51dd8055ccf"
 weather_param={
-"lat":-37.813629,
-"lon":144.963058,
+"lat":34.38,
+"lon":58.20,
 "cnt":4,
 "appid":api_key,
 
 }
+
+account_sid = os.environ['sid']
+auth_token = '[AuthToken]'
+
+
+
 response=requests.get(end,params=weather_param)
 #print(response.status_code)
 response.raise_for_status()
@@ -28,4 +38,17 @@ for data in weather_data["list"]:
         #print("Sunny")
         will_rain=False
     if will_rain:
-        print("Bring Umbrella")
+        #print("Bring Umbrella")
+        client = Client(account_sid, auth_token)
+        # message = client.messages.create(
+        #     body="Today is raining Day .... Remember to Bring an umbrella.",
+        #     from_="+141523223",
+        #     to="+61 11111111")
+        # print (message)
+        message = client.messages.create(
+            from_='whatsapp:+141523223',
+            content_sid='HXb5b62575e6e4ff6129ad7c8efe1f983e',
+            content_variables='{Today is raining Day .... Remember to Bring an umbrella.}',
+            to='whatsapp:+6111111111'
+        )
+
