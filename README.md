@@ -3,6 +3,5 @@
 - Automated email project.
 - ISS (International Space Station Current Location)overhead notifier.
 -Quiz Application using API
+-Rain Alert Application
 
-# Demo:
-<video controls src="20241016-0126-51.7826179.mp4" title="Demo"></video>
