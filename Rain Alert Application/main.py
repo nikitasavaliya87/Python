@@ -8,7 +8,7 @@ from twilio.rest import Client
 
 
 end="https://api.openweathermap.org/data/2.5/forecast"
-api_key="083334a04b5674ede874e51dd8055ccf"
+api_key="083334a04b5674ede874e51dd8"
 weather_param={
 "lat":34.38,
 "lon":58.20,
@@ -47,7 +47,7 @@ for data in weather_data["list"]:
         # print (message)
         message = client.messages.create(
             from_='whatsapp:+141523223',
-            content_sid='HXb5b62575e6e4ff6129ad7c8efe1f983e',
+            content_sid='HXb5b62575e6e4ff6129ad7c8efe3e',
             content_variables='{Today is raining Day .... Remember to Bring an umbrella.}',
             to='whatsapp:+6111111111'
         )
