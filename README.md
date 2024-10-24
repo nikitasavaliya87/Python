@@ -14,5 +14,5 @@
    - Build a quiz application that fetches random questions from an API (like Open Trivia Database). Users can answer questions, and the application tracks the correct answers. You can create a command-line version or an app with a GUI.
 
 5. **Rain Alert Application**
-   - This project notifies users if it's going to rain in their location. It uses the OpenWeatherMap API to check the weather forecast and Twilio's API to send an SMS or WhatsApp message. [Link to Project](#weather-alert-application).
+   - This project notifies users if it's going to rain in their location. It uses the OpenWeatherMap API to check the weather forecast and Twilio's API to send an SMS or WhatsApp message.
 
