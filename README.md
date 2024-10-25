@@ -16,3 +16,4 @@
 5. **Rain Alert Application**
    - This project notifies users if it's going to rain in their location. It uses the OpenWeatherMap API to check the weather forecast and Twilio's API to send an SMS or WhatsApp message.
 
+6. **Stock management Application**
