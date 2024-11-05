@@ -55,10 +55,12 @@ if diff>5:
     print(article)
 
     
-#TODO 6. - Instead of printing ("Get News"), use the News API to get articles related to the COMPANY_NAME.
+
 three_article=article[:3]
 print(three_article)
-#TODO 7. - Use Python slice operator to create a list that contains the first 3 articles. Hint: https://stackoverflow.com/questions/509211/understanding-slice-notation
+
+
+
 
 
     ## STEP 3: Use twilio.com/docs/sms/quickstart/python
