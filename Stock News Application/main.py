@@ -8,6 +8,7 @@ STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 sTOCK_API_KEY="SUQOU9U390QLM5YJ";
+NEWS_API_KEY="873cfa02b86e4f38a5d5e01114cf1ab5"
 
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
@@ -33,20 +34,30 @@ print(yesterday_closing_price)
 day_before_yesterday_data=data_list[1]
 day_before_yesterday_closing_price=day_before_yesterday_data["4. close"]
 print(day_before_yesterday_closing_price)
-#TODO 3. - Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. Hint: https://www.w3schools.com/python/ref_func_abs.asp
+
+
 diff=abs(float(yesterday_closing_price)-float(day_before_yesterday_closing_price))
 print(diff)
 
-#TODO 4. - Work out the percentage difference in price between closing price yesterday and closing price the day before yesterday.
+
 diff_percentage=(diff/float(yesterday_closing_price))*100
-#TODO 5. - If TODO4 percentage is greater than 5 then print("Get News").
+
 if diff>5:
-    print("news")
-    ## STEP 2: https://newsapi.org/ 
-    # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME. 
+    #print("news")
+    news_param={
+       # "q":STOCK_NAME,
+        "apiKey":NEWS_API_KEY,
+        "qInTitle":COMPANY_NAME
 
+    }
+    response=requests.get(NEWS_ENDPOINT,params=news_param)
+    article=response.json()["articles"]
+    print(article)
+
+    
 #TODO 6. - Instead of printing ("Get News"), use the News API to get articles related to the COMPANY_NAME.
-
+three_article=article[:3]
+print(three_article)
 #TODO 7. - Use Python slice operator to create a list that contains the first 3 articles. Hint: https://stackoverflow.com/questions/509211/understanding-slice-notation
 
 
