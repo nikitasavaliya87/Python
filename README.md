@@ -16,4 +16,5 @@
 5. **Rain Alert Application**
    - This project notifies users if it's going to rain in their location. It uses the OpenWeatherMap API to check the weather forecast and Twilio's API to send an SMS or WhatsApp message.
 
-6. **Stock management Application**
+6. [**Stock News Application**](https://github.com/nikitasavaliya87/Python/tree/0d7a17ff069c70b0af06fc6b9fe04a7ea25fec21/Stock%20News%20Application)
+   - This Python project monitors stock price changes for a specific company  using the Alpha Vantage API. When a significant price change occurs, it fetches relevant news articles from the NewsAPI and presents them with brief summaries.
