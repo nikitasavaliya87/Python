@@ -20,4 +20,4 @@
    - This Python project monitors stock price changes for a specific company  using the Alpha Vantage API. When a significant price change occurs, it fetches relevant news articles from the NewsAPI and presents them with brief summaries.
 
 7. [**Habit Tracking Application**](https://github.com/nikitasavaliya87/Python/tree/92bae381748b21c98e5c0329406dfd7d74173b74/Habit%20tracker%20Application)
-- This python project uses the Pixela API to create and update a graph that tracks yoga sessions by logging the duration of each session in minutes.
+  - This python project uses the Pixela API to create and update a graph that tracks yoga sessions by logging the duration of each session in minutes.
