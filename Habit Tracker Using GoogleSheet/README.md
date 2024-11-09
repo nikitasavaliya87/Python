@@ -4,4 +4,10 @@ This Python project is an Exercise Tracker application that leverages the Nutrit
 
 # Requirements
     - Python 3.x
-    - requests, python-dotenv l (for managing environment variables) library
+    - requests, python-dotenv(for managing environment variables) library
+
+# Usage
+    - Send the exercise data to the Nutritionix API to retrieve calories burned.
+    - Format the response and save the data to your Sheety database (e.g., a Google Sheet) using one of the authentication methods specified.
+
+    ![alt text](image.png)
