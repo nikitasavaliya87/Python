@@ -22,5 +22,5 @@
 7. [**Habit Tracking Application**](https://github.com/nikitasavaliya87/Python/tree/92bae381748b21c98e5c0329406dfd7d74173b74/Habit%20tracker%20Application)
    - This python project uses the Pixela API to create and update a graph that tracks yoga sessions by logging the duration of each session in minutes.
 
-8.[**Habit Tracking Application Using Google Sheet**](https://github.com/nikitasavaliya87/Python/tree/3404a2b2b047279c739ece39f49e86b0fbce037c/Habit%20Tracker%20Using%20GoogleSheet)
+8. [**Habit Tracking Application Using Google Sheet**](https://github.com/nikitasavaliya87/Python/tree/3404a2b2b047279c739ece39f49e86b0fbce037c/Habit%20Tracker%20Using%20GoogleSheet)
    - This Python Exercise Tracker logs exercises with the Nutritionix API, stores data in Google Sheets via Sheety, and manages sensitive info with environment variables. It supports multiple authentication methods.
