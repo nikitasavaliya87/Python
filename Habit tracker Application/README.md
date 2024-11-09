@@ -1,6 +1,6 @@
 # Pixela Yoga Tracker
 
-This project interacts with the Pixela API to create and update a graph for tracking yoga sessions. Each entry logs the duration of the yoga session in minutes.
+This Python project interacts with the Pixela API to create and update a graph for tracking yoga sessions. Each entry logs the duration of the yoga session in minutes.
 
 ## Requirements
 
