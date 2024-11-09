@@ -8,6 +8,7 @@ This Python project is an Exercise Tracker application that leverages the Nutrit
 
 # Usage
     - Send the exercise data to the Nutritionix API to retrieve calories burned.
-    - Format the response and save the data to your Sheety database (e.g., a Google Sheet) using one of the authentication methods specified.
+    - Format the response and save the data to your Sheety database (e.g., a Google Sheet)
+     using one of the authentication methods specified.
 
 ![alt text](image.png)
