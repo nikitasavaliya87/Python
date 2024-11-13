@@ -24,3 +24,6 @@
 
 8. [**Habit Tracking Application Using Google Sheet**](https://github.com/nikitasavaliya87/Python/tree/3404a2b2b047279c739ece39f49e86b0fbce037c/Habit%20Tracker%20Using%20GoogleSheet)
    - This Python Exercise Tracker logs exercises with the Nutritionix API, stores data in Google Sheets via Sheety, and manages sensitive info with environment variables. It supports multiple authentication methods.
+
+9. [**Cheap Flight Finder**](https://github.com/nikitasavaliya87/Python/tree/4c5da582f98c74bcbcf13b68c21f72ad977594af/Cheap%20Flight%20Finder)
+   - This Python-based flight deal finder uses APIs to locate the cheapest flights from a specified origin to multiple destinations. It retrieves current flight prices, checks for deals, and compares them with saved data for cost savings.
