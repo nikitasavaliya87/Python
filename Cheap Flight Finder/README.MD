@@ -21,10 +21,10 @@ This project is a Python-based flight deal finder that uses APIs to search for t
 4. **Price Comparison**: Compares current flight prices with previously recorded lowest prices and prints a message if a cheaper price is found.
 
 ## Features
-    - Dynamic IATA Code Retrieval: Automatically fetches IATA codes for destinations missing them.
-    - Flight Price Comparison: Compares current flight prices against previously recorded prices and alerts if a lower price is available.
-    - Rate Limiting: Adds pauses to prevent hitting API rate limits.
-    - Real-Time Price Alerts: Notifies users if a new deal is found for any destination.
+- Dynamic IATA Code Retrieval: Automatically fetches IATA codes for destinations missing them.
+- Flight Price Comparison: Compares current flight prices against previously recorded prices and alerts if a lower price is available.
+- Rate Limiting: Adds pauses to prevent hitting API rate limits.
+- Real-Time Price Alerts: Notifies users if a new deal is found for any destination.
 
 ## Demo
 ![alt text](image.png)
